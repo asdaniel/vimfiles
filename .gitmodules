@@ -195,4 +195,4 @@
 	url = git://github.com/bbommarito/vim-slim.git
 [submodule "bundle/vim-perl"]
 	path = bundle/vim-perl
-	url = https://github.com/petdance/vim-perl.git
+	url = https://github.com/vim-perl/vim-perl.git
