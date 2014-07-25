@@ -441,4 +441,7 @@ inoremap <Esc>B <down>
 inoremap <Esc>C <right>
 inoremap <Esc>D <left>
 
-"set noballooneval
+
+" No tab expansion for Makefile and CHANGES files
+autocmd FileType make setlocal noexpandtab
+"autocmd BufNewFile,BufRead CHANGES setlocal noexpandtab
